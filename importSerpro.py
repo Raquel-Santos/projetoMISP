@@ -2,8 +2,8 @@ from pymisp import MISPEvent, MISPObject, PyMISP, ExpandedPyMISP
 import urllib
 
 listIP = "https://s3.i02.estaleiro.serpro.gov.br/blocklist/blocklist.txt"
-misp_key='Wiz6zuvjSkq7LsyouGqhgzb8qRAv82fja5MNiKmD'
-misp_url='https://localhost'
+misp_key='<misp_key>'
+misp_url='misp_url>'
 misp_verify_cert = False
 list = urllib.request.urlopen(listIP)
 
