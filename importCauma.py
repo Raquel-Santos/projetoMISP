@@ -2,8 +2,8 @@ from pymisp import MISPEvent, MISPObject, PyMISP, ExpandedPyMISP
 import urllib
 
 listUrl = "https://cauma.pop-ba.rnp.br/feed/txt"
-misp_key='Wiz6zuvjSkq7LsyouGqhgzb8qRAv82fja5MNiKmD'
-misp_url='https://localhost'
+misp_key='<misp_key>'
+misp_url='<misp_url>'
 misp_verify_cert = False
 list = urllib.request.urlopen(listUrl)
 
