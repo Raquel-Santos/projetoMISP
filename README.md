@@ -118,5 +118,5 @@ pip3 install pymisp
   - https://github.com/MISP/PyMISP
 
 - Outras Referências
- - https://github.com/brunoodon/misp/tree/main/automation
+  - https://github.com/brunoodon/misp/tree/main/automation
 
