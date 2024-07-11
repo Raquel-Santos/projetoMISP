@@ -1,7 +1,7 @@
 # Projeto_MISP
 
 ### NOTA IMPORTANTE
-Para seguir o tutorial recomendamos o uso do Python3.11
+Para seguir o tutorial é recomendado o uso do Python3.11
 
 ## Instalação do MISP
 
