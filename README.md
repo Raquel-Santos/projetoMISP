@@ -27,30 +27,30 @@ Em seguida você precisará executar os seguintes passos listados abaixo:
 
 Passo 1: Clonar o repositório do misp-docker, para isso execute o seguinte comando no seu terminal:
 
-
+'''
 $ git clone https://github.com/MISP/misp-docker/ && cd docker-misp
-
+'''
 
 
 Passo 2: Copiar o arquivo de ambiente e remover seu prefixo temporário.
 
-
+'''
 $ cp template.env .env			
-
+'''
 
 Passo 3: Dentro do diretório criado, verifique se o arquivo docker-compose.yml foi baixado corretamente. Em caso positivo, você precisará extrair as imagens pré-construídas ou construir novas imagens, a segunda opção é mais recomendável. 
 
 
 Para extrair as imagens pré-construídas:
-
+'''
 $ docker compose pull
-
+'''
 
 
 Para construir novas imagens:
-
+'''
 $ docker compose build
-
+'''
 
 Obs1: o processo de geração das imagens pode demorar um pouco, aguarde o processo ser finalizado para seguir para o próximo passo. 
 
@@ -59,16 +59,16 @@ Obs2: Em caso de erros, veja a seção Troubleshooting.
 
 Passo 4: Agora será necessário carregar os containers, os quais são responsáveis habilitar os componentes necessários (misp, misp-modules, redis, database, and mail containers) para a execução do MISP.
 
-
+'''
 $ docker compose up
-
+'''
 
 Para acessar a interface Web do MISP acesse https://localhost usando as credenciais:
-
+'''
 E-mail: admin@admin.test
 
 Senha: admin
-
+'''
 
 
 ## Configuração do MISP
