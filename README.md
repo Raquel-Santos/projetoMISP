@@ -1,5 +1,8 @@
 # Projeto_MISP
 
+### NOTA IMPORTANTE
+Para seguir o tutorial recomendamos o uso do Python3.11
+
 ## Instalação do MISP
 
 
@@ -95,3 +98,12 @@ Passo 1: Verificar se os Workers estão ativados;
 Passo 2: Habilitar os feeds públicos.
 
 Passo 3: Fazer o download dos eventos.
+
+## Acessando a API do MISP
+
+Neste projeto, para acessar a plataforma MISP por meio de sua API REST usamos a biblioteca PyMISP. Para mais informações sobre a biblioteca acesse: https://github.com/MISP/PyMISP
+
+A instalação do PyMISP pode ser feita executando esse comando:
+````ruby
+pip3 install pymisp
+````
