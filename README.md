@@ -1,6 +1,6 @@
 # Projeto_MISP
 
-##Instalação do MISP
+#Instalação do MISP
 
 
 O processo de instalação que será apresentado neste tutorial é baseado nas instruções disponíveis na página da plataforma do MISP (https://misp-project.org/). A instância do projeto HackInSDN usa a solução Docker containers, mas especificamente, imagens docker mantidas por Stefano Ortolani da VMware. As quais são regularmente enviadas para o registro do pacote MISP GitHub .
@@ -71,7 +71,7 @@ Senha: admin
 
 
 
-##Configuração do MISP
+#Configuração do MISP
 
 
 Após a instalação do MISP será necessário efetuar algumas configurações como: troca de senha, criação de organização e novos usuários, etc.
