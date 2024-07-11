@@ -106,3 +106,16 @@ A instalação do PyMISP pode ser feita executando esse comando:
 ````ruby
 pip3 install pymisp
 ````
+
+## Referências
+- Documentação MISP
+
+- Repositório MISP
+  - https://github.com/misp/misp-docker
+
+-  Repositório PyMISP
+  - https://github.com/MISP/PyMISP
+
+- Outras Referências
+ - https://github.com/brunoodon/misp/tree/main/automation
+
