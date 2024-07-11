@@ -28,7 +28,9 @@ Em seguida você precisará executar os seguintes passos listados abaixo:
 Passo 1: Clonar o repositório do misp-docker, para isso execute o seguinte comando no seu terminal:
 
 
-````ruby $ git clone https://github.com/MISP/misp-docker/ && cd docker-misp````
+````ruby
+$ git clone https://github.com/MISP/misp-docker/ && cd docker-misp
+````
 
 
 Passo 2: Copiar o arquivo de ambiente e remover seu prefixo temporário.
